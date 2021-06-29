@@ -1,20 +1,153 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
+<ion-content [scrollEvents]="true" (ionScrollEnd)="FadeIn()">
+  <main class="loop">
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+  
+  <!-- google font -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  
+  <!-- page-1 -->
+  <section>
+  <div class="pic1">
   </div>
-</ion-content>
+  <div class="pic1-title " >
+    <div class="text" #fade1>
+      <h2 >PERHATIAN ! <br>
+        Kepada anda anda yang masih belum ada laman web.
+       Masih belum onlinekan perniagaan anda ?
+     </h2>
+     <p>Mari saya onlinekan perniagaan anda dengan kos yang murah,
+        hanya RM 50 dan bayar sekali sahaja !!</p>
+    </div>
+  </div>
+  </section>
+  <!-- page 2 -->
+  <section>
+  <div class="pic2">
+  </div>
+  <div class="pic2-title">
+    <div class="text"  #fade2>
+      <h2>
+        Assalammualaikum & Hai...
+      </h2>
+      <p>
+        Saya faham, dengan pandemik yang melanda sekarang ramai
+        yang terjejas dan ada yang mula berjinak dengan bisnes.
+        Kedai terpaksa tutup sebab PKP. Kalau boleh buka kedai pun, 
+        orang tak ramai datang. Norma baharu membuatkan orang duduk di
+        rumah dan membeli dari rumah sahaja. Berniaga sekarang perlu online.
+      </p>
+      <p>
+        Kos nak buat website pun bukannya murah, beribu - ribu juga. Menjual
+        di Facebook, Instagram, Shopee, Lazada pula banyak persaingan. Nak
+        bina followers yang ramai bukan senang. Nak kena buat Ads lagi. Ads
+        pun dah semakin mahal sekarang.
+      </p>
+    </div>
+    <br>
+  </div>
+</section>
+  <!-- page 3 -->
+  <div class="pic-3">
+    <section>
+    <br>
+    <img src="assets/media/phone1.png" alt="">
+    <!-- advantage of iKad -->
+    <div class="pic-3-title">
+      <div class="text" #fade3>
+        <h3>iKad penyelesaian yang terbaik</h3>
+        <p>Bagus sangat ke iKad ni? Apa beza iKad dengan website lain??..</p>
+        <p>Ya!!semestinya iKad ni sangat bagus!!</p>
+        <p>Banyak kelebihan Myekad berbanding dengan website-website lain,</p>
+        <p>antaranya :</p>
+      </div>
+    </div>
+    <div class="pic-3-desc">
+      <div class="text" #fade4>
+        <h4><ion-icon name="checkbox"></ion-icon>Teknologi Terkini</h4>
+        <p class="word">iKad menggunakan teknologi terkini iaitu PWA, Progressive Web App. Banyak  
+          syarikat - syarikat besar menggunakan PWA untuk perniagaan mereka. Antaranya, 
+          Starbuck, Shopee, Google dan lain-lain.
+        </p>
+        <h4><ion-icon name="checkbox"></ion-icon>Lebih Laju & Offline</h4>
+        <p class="word">Akses kepada web lebih laju dan boleh akses walaupun offline.</p>
+    
+        <h4><ion-icon name="checkbox"></ion-icon>Customize</h4>
+        <p class="word">Akses kepada web lebih laju dan boleh akses walaupun offline.</p>
+      </div>
+    </div>
+  </section>
+  <section>
+
+  
+    <!-- user for iKad -->
+    <div class="pic-3-title">
+      <div class="text" #fade5>
+        <h3>Siapa yang patut ada iKad ?</h3>
+      </div>
+    </div>
+    <div class="pic-3-desc">
+      <div class="text" #fade6>
+        <ion-item lines="none">
+          <img src="assets/media/sales.png" alt="" srcset="">
+          <div class="word">
+            <h4>Sales Person</h4>
+            <p>Ejen Insurans, Ejen Kereta, Ejen Coway dan anda - anda yang buat sales.</p>
+          </div>
+        </ion-item>
+        <ion-item lines="none">
+          <img src="assets/media/bisnes.png" alt="" srcset="">
+          <div class="word">
+            <h4>Pemilik Bisnes</h4>
+            <p>Anda ada bisnes dan ingin perkenalkan bisnes anda kepada pelanggan.</p>
+          </div>
+        </ion-item>
+        <ion-item lines="none">
+          <img src="assets/media/korporat.png" alt="" srcset="">
+          <div class="word">
+            <h4>Korporat</h4>
+            <p>Anda akan nampak professional dengan memiliki iKad.</p>
+          </div>
+        </ion-item>
+        <ion-item lines="none">
+          <img src="assets/media/pelajar.png" alt="" srcset="">
+          <div class="word">
+            <h4>Pelajar</h4>
+            <p>Majikan - majikan akan berminat dengan anda selepas melihat iKad anda.</p>
+          </div>
+        </ion-item>
+        <ion-item lines="none">
+          <img src="assets/media/syarikat.png" alt="" srcset="">
+          <div class="word">
+            <h4>Syarikat</h4>
+            <p>Laman web syarikat akan mengikut teknologi semasa dan lebih banyak kelebihan.</p>
+          </div>
+        </ion-item>
+      </div>
+    </div>
+  </section>
+  </div>
+
+  <!-- page 4 -->
+  <section>
+  <div class="pic4">
+    <div class="pic4-title">
+      <div class="text" #fade7>
+        <h2>Berminat untuk onlinekan bisnes anda dengan iKad ?</h2>
+        <p style="margin-top: 1rem;">Jadi, kalau minat tunggu apa lagi ?...</p>
+        <p>Dengan modal hanya RM50 anda dah dapat onlinekan bisnes anda.</p>
+        <p>Saya harap dengan adanya iKad ini dapat membantu anda - anda semua
+           berniaga secara online. Jika anda tidak berpuas hati ataupun ingin
+           memberi idea, boleh lah contact saya nanti. saya amat mengalu - alukan
+           input dari anda semua.
+        </p>
+      </div>
+      
+      <ion-button  expand="block" fill="clear" shape="round" #fade8>
+        Start Now
+      </ion-button>
+    </div>
+  </div>
+</section>
+    </main>
+  </ion-content>
+  
